@@ -2,6 +2,13 @@
   width: 100%;
 }
 
+#title {
+  align-items: left;
+  font-family: Domine;
+  
+
+}
+
 #sidebar {
 	width: 550px;
   float: right;
@@ -28,7 +35,7 @@
 	color: #1c1c1b;
 	background-color: #f1b41d;
 	display: block;
-	width: 265px; 
+	width: 265px;
 }
 
 #nav1 a:hover, #nav a:active {
@@ -53,7 +60,7 @@
 	color: #1c1c1b;
 	background-color: #f1b41d;
 	display: block;
-	width: 190px; 
+	width: 190px;
 }
 
 #nav a:hover, #nav a:active {
