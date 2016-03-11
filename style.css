@@ -5,9 +5,9 @@
 
 
 #sidebar {
-	width: 550px;
+	width: 30%;
   float: right;
-	border-left: 1px solid #000000;
+	border-left: 3% solid #000000;
 	padding-left: 20px;
 	padding-right: 20px;
 }
