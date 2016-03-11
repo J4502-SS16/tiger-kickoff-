@@ -3,10 +3,11 @@
 }
 
 #sidebar {
-	width: 350px;
+	width: 550px;
   float: right;
 	border-left: 1px solid #000000;
 	padding-left: 20px;
+	padding-right: 20px;
 }
 
 #nav1 {
@@ -27,7 +28,7 @@
 	color: #1c1c1b;
 	background-color: #f1b41d;
 	display: block;
-	width: 214px; 
+	width: 265px; 
 }
 
 #nav1 a:hover, #nav a:active {
@@ -52,7 +53,7 @@
 	color: #1c1c1b;
 	background-color: #f1b41d;
 	display: block;
-	width: 153px; 
+	width: 190px; 
 }
 
 #nav a:hover, #nav a:active {
