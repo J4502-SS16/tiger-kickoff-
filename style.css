@@ -2,22 +2,24 @@
   width: 100%;
 }
 
-
+#logo{
+    position: absolute;
+    top:50px;
+    left: 30px;
+}
 
 #sidebar {
-	width: 550px;
+	width: 30%;
   float: right;
-	border-left: 1px solid #000000;
+	border-left: 3% solid #000000;
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
-#nav1 {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-
+#login li{
+    float:right;
 }
+
 
 #nav1 li {
 	float: left;
@@ -31,7 +33,7 @@
 	color: #000000;
 	background-color: #f1b41d;
 	display: block;
-	width: 265px;
+	width: 150px;
   background-color: white;
   padding:4px 0;
 }
@@ -40,11 +42,6 @@
 	background-color: #f1d82e;
 }
 
-#nav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
 
 #nav li {
 	float: left;
@@ -65,13 +62,62 @@
 	background-color: #f1d82e;
 }
 
-#nav {
-
-
-}
 
 #Missourian{
   font-weight: bold;
   color: #ffffff;
   text-align: left;
 }
+
+#stories{
+    text-align: center;
+}
+#headline{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#quiz{
+    position: absolute;
+    left: 0%;
+    display: block;
+    width: 250px;
+    height: 100px;
+    outline: black solid thin;
+    padding: 4px 4px 4px 4px;
+}
+#fastfive{
+    position: absolute;
+    left: 25%;
+    display: block;
+    width: 250px;
+    height: 100px;
+    outline: black solid thin;
+    padding: 4px 4px 4px 4px;
+}
+#lineup{
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 250px;
+    height: 100px;
+    outline: black solid thin;
+    padding: 4px 4px 4px 4px;
+}
+#more{
+    display: block;
+    position: absolute;
+    left: 75%;
+    width: 250px;
+    height: 100px;
+    outline: black solid thin;
+    padding: 4px 4px 4px 4px;
+}
+
