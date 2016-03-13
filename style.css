@@ -8,6 +8,13 @@
     left: 30px;
 }
 
+#h1{
+  font-family: 'Domine', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30;
+  float: left;
+}
+
+
 #sidebar {
 	width: 30%;
   float: right;
@@ -120,4 +127,3 @@ ul{
     outline: black solid thin;
     padding: 4px 4px 4px 4px;
 }
-
