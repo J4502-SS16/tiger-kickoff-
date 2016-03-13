@@ -8,10 +8,10 @@
     left: 30px;
 }
 
-#h5{
-  font-family: 'Domine', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30;
-  float: left;
+h5{
+  font-family: 'Domine', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-align: left;
 }
 
 
