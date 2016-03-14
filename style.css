@@ -141,9 +141,11 @@ ul{
 
 
 .storiesimage {
-  width: 40%;
+  width: 90%;
+  position: absolute;
 }
 
 .scheduleimage {
-  width: 70%;
+  width: 80%;
+  position: absolute;
 }
