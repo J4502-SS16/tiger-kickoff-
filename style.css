@@ -9,6 +9,9 @@
     left: 30px;
 }
 
+title{
+    clear: both;
+}
 h1{
   font-family: 'Domine', Helvetica, Arial, sans-serif;
   font-size: 50px;
@@ -74,8 +77,8 @@ h1{
 	color: #ffffff;
 	background-color: #f1b41d;
 	display: block;
-	width: 50%;
-  float: right;
+	width: 100px;
+  text-align: center;
 }
 
 #nav a:hover, #nav a:active {
@@ -83,11 +86,10 @@ h1{
   color: black;
 }
 
-
 #Missourian{
   font-weight: bold;
   color: #ffffff;
-  text-align: left;
+  text-align: center;
 
 }
 
