@@ -21,20 +21,37 @@ h1{
   text-align: left;
 }
 
-
 /*sidebar font*/
 h2{
-font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+font-family: 'Domine', Helvetica, Arial, serif;
 }
 
+/*headline font*/
 h3{
-
-}
-
-#headline{
-  font-family: 'Domine', Helvetica, Arial, sans-serif;
+  font-family: 'Domine', Helvetica, Arial, serif;
   font-size: 30px;
   text-align: center;
+}
+
+/*subhead font*/
+h4{
+
+}
+
+/*byline font*/
+h5{
+  
+}
+
+/*body text font*/
+h6{
+    font-family: 'Domine', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: left;
+  }
+
+#headline{
+
 }
 
 #container{
