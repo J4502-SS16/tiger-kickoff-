@@ -40,9 +40,9 @@ h1{
 	color: #000000;
 	background-color: #f1b41d;
 	display: block;
-	width: 150px;
+	width: 100px;
   background-color: white;
-  padding:4px 0;
+  padding:3px 0;
 }
 
 #nav1 a:hover, #nav a:active {
