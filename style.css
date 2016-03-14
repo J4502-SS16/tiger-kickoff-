@@ -8,6 +8,13 @@
     left: 30px;
 }
 
+h1{
+  font-family: 'Domine', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-align: left;
+}
+
+
 #sidebar {
 	width: 30%;
   float: right;
@@ -39,7 +46,8 @@
 }
 
 #nav1 a:hover, #nav a:active {
-	background-color: #f1d82e;
+	background-color: white;
+  color: black;
 }
 
 
@@ -56,10 +64,12 @@
 	background-color: #f1b41d;
 	display: block;
 	width: 190px;
+  float: right;
 }
 
 #nav a:hover, #nav a:active {
-	background-color: #f1d82e;
+  background-color: white;
+  color: black;
 }
 
 
@@ -120,7 +130,10 @@ ul{
     outline: black solid thin;
     padding: 4px 4px 4px 4px;
 }
+<<<<<<< HEAD
 
 .storiesimage {
   width: 35%;
 }
+=======
+>>>>>>> origin/master
