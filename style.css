@@ -14,6 +14,11 @@ h1{
   text-align: left;
 }
 
+#container{
+  width: 320px;
+  margin: 0, auto, 0, 0;
+  margin-bottom: 5%;
+}
 
 #sidebar {
 	width: 30%;
