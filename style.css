@@ -14,12 +14,11 @@ title{
     float: left;
 }
 
-
 /*Tiger Kickoff*/
 h1{
   font-family: 'Domine', Helvetica, Arial, sans-serif;
   font-size: 50px;
-  text-align: left;
+  text-align: center;
 }
 
 
@@ -58,15 +57,15 @@ h3{
 
 #nav1 a:link, #nav a:visited {
 	text-align: center;
-  font-size: 12px;
+  font-size: 16px;
 	text-decoration: none;
 	padding: 4px 0px;
 	color: #000000;
 	background-color: #f1b41d;
 	display: block;
-	width: 100px;
+	width: 250px;
   background-color: white;
-  padding:3px 0;
+  padding: 3px 0;
 }
 
 #nav1 a:hover, #nav a:active {
@@ -79,8 +78,6 @@ h3{
 	float: left;
   font-size: 14px;
   margin: 0%;
-
-
 }
 
 #nav a:link, #nav a:visited {
@@ -91,7 +88,7 @@ h3{
 	color: #ffffff;
 	background-color: #f1b41d;
 	display: block;
-	width: 222px;
+	width: 222 px; 
   text-align: center;
 }
 
@@ -121,8 +118,6 @@ ul{
 	margin: 0;
 	padding: 0;
 }
-
-
 
 #quiz{
     position: absolute;
