@@ -81,7 +81,10 @@ h1{
 }
 
 #stories{
-    text-align: center;
+    text-align: right;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
 }
 #headline{
     text-align: center;
