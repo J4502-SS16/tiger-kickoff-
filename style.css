@@ -11,7 +11,9 @@
 
 title{
     clear: both;
+    float: left;
 }
+
 h1{
   font-family: 'Domine', Helvetica, Arial, sans-serif;
   font-size: 50px;
