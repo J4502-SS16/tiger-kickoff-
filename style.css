@@ -3,6 +3,17 @@
   width: 100%;
 }
 
+#logo{
+    position: absolute;
+    top:50px;
+    left: 30px;
+}
+
+h1{
+  font-family: 'Domine', Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  text-align: left;
+}
 
 
 #sidebar {
@@ -13,12 +24,10 @@
 	padding-right: 20px;
 }
 
-#nav1 {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-
+#login li{
+    float:right;
 }
+
 
 #nav1 li {
 	float: left;
@@ -32,20 +41,16 @@
 	color: #000000;
 	background-color: #f1b41d;
 	display: block;
-	width: 265px;
+	width: 100px;
   background-color: white;
-  padding:4px 0;
+  padding:3px 0;
 }
 
 #nav1 a:hover, #nav a:active {
-	background-color: #f1d82e;
+	background-color: white;
+  color: black;
 }
 
-#nav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
 
 #nav li {
 	float: left;
@@ -56,23 +61,85 @@
 	text-align: center;
 	text-decoration: none;
 	padding: 6px 0px;
-	color: #1c1c1b;
+	color: #ffffff;
 	background-color: #f1b41d;
 	display: block;
 	width: 190px;
+  float: right;
 }
 
 #nav a:hover, #nav a:active {
-	background-color: #f1d82e;
+  background-color: white;
+  color: black;
 }
 
-#nav {
-
-
-}
 
 #Missourian{
   font-weight: bold;
   color: #ffffff;
   text-align: left;
+
+}
+
+#stories{
+    text-align: center;
+}
+#headline{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#quiz{
+    position: absolute;
+    left: 0%;
+    display: block;
+    width: 250px;
+    height: 100px;
+    outline: black solid thin;
+    padding: 4px 4px 4px 4px;
+}
+#fastfive{
+    position: absolute;
+    left: 25%;
+    display: block;
+    width: 250px;
+    height: 100px;
+    outline: black solid thin;
+    padding: 4px 4px 4px 4px;
+}
+#lineup{
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 250px;
+    height: 100px;
+    outline: black solid thin;
+    padding: 4px 4px 4px 4px;
+}
+#more{
+    display: block;
+    position: absolute;
+    left: 75%;
+    width: 250px;
+    height: 100px;
+    outline: black solid thin;
+    padding: 4px 4px 4px 4px;
+}
+
+
+.storiesimage {
+  width: 35%;
+  float: left;
+}
+
+.scheduleimage {
+  width: 40%;
+  float: right;
 }
