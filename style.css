@@ -35,12 +35,16 @@ h3{
 
 /*subhead font*/
 h4{
-
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 14px;
+  text-align: center;
 }
 
 /*byline font*/
 h5{
-  
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 12px;
+  text-align: center;
 }
 
 /*body text font*/
