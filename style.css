@@ -131,10 +131,14 @@ ul{
     outline: black solid thin;
     padding: 4px 4px 4px 4px;
 }
-<<<<<<< HEAD
+
 
 .storiesimage {
   width: 35%;
+  float: left;
 }
-=======
->>>>>>> origin/master
+
+.scheduleimage {
+  width: 40%;
+  float: right;
+}
