@@ -15,7 +15,7 @@ h1{
 }
 
 #container{
-  width: 320px;
+  width: auto;
   margin: 0, auto, 0, 0;
   margin-bottom: 5%;
 }
