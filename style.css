@@ -64,6 +64,7 @@ h1{
 	background-color: #f1b41d;
 	display: block;
 	width: 190px;
+  float: right;
 }
 
 #nav a:hover, #nav a:active {
