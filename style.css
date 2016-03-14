@@ -31,6 +31,12 @@ h3{
 
 }
 
+#headline{
+  font-family: 'Domine', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
 #container{
   width: auto;
   margin: 0, auto, 0, 0;
