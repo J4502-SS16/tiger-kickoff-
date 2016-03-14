@@ -60,6 +60,8 @@ h1{
 
 #nav li {
 	float: left;
+  font-size: 6px;
+
 }
 
 #nav a:link, #nav a:visited {
@@ -84,7 +86,6 @@ h1{
   font-weight: bold;
   color: #ffffff;
   text-align: left;
-  font-size: 14px;
 
 }
 
