@@ -14,10 +14,21 @@ title{
     float: left;
 }
 
+/*Tiger Kickoff*/
 h1{
   font-family: 'Domine', Helvetica, Arial, sans-serif;
   font-size: 50px;
-  text-align: left;
+  text-align: center;
+}
+
+
+/*sidebar font*/
+h2{
+font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+h3{
+
 }
 
 #container{
@@ -26,14 +37,14 @@ h1{
   margin-bottom: 5%;
 }
 
-#sidebar {
+/* KEEP THIS COMMENTED OUT FOR NOW thx     #sidebar {
 	width: 30%;
   float: right;
   clear: all;
 	border-left: 3% solid #000000;
-	padding-left: 20px;
-	padding-right: 20px;
-}
+	padding-left: 3%;
+	padding-right: 3%;
+}*/
 
 #login li{
     float:right;
@@ -45,33 +56,34 @@ h1{
 }
 
 #nav1 a:link, #nav a:visited {
-	font-weight: bold;
-	text-align: center;
+
+  text-align: center;
+  font-size: 16px;
 	text-decoration: none;
 	padding: 4px 0px;
 	color: #000000;
 	background-color: #f1b41d;
 	display: block;
-	width: 100px;
+	width: 250px;
   background-color: white;
-  padding:3px 0;
+  padding: 3px 0;
 }
 
 #nav1 a:hover, #nav a:active {
-	background-color: white;
+  background-color: white;
   color: black;
 }
 
 
 #nav li {
-	float: left;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  float: left;
   font-size: 14px;
   margin: 0%;
-
-
 }
 
 #nav a:link, #nav a:visited {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
@@ -79,16 +91,18 @@ h1{
 	color: #ffffff;
 	background-color: #f1b41d;
 	display: block;
-	width: 100px;
+	width: 222 px;
   text-align: center;
 }
 
 #nav a:hover, #nav a:active {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   background-color: white;
   color: black;
 }
 
 #Missourian{
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #ffffff;
   text-align: center;
@@ -109,8 +123,6 @@ ul{
 	margin: 0;
 	padding: 0;
 }
-
-
 
 #quiz{
     position: absolute;
@@ -152,5 +164,6 @@ ul{
 
 .scheduleimage {
   width: 90%;
+  padding-top: 7%;
 
 }
