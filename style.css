@@ -24,6 +24,8 @@ h1{
 /*sidebar font*/
 h2{
 font-family: 'Domine', Helvetica, Arial, serif;
+font-size: 18px;
+
 }
 
 /*headline font*/
@@ -42,9 +44,10 @@ h4{
 
 /*byline font*/
 h5{
-  font-family: 'Domine', Helvetica, Arial, serif;
-  font-size: 14px;
+  font-family: 'Open sans', Helvetica, Arial, serif;
+  font-size: 12px;
   text-align: center;
+  color: blue;
 }
 
 /*body text font*/
