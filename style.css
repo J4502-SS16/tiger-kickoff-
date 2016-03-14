@@ -1,0 +1,199 @@
+
+.featured_image {
+  width: 100%;
+}
+
+#logo{
+    position: absolute;
+    top:50px;
+    left: 30px;
+}
+
+title{
+    clear: both;
+    float: left;
+}
+
+/*Tiger Kickoff*/
+h1{
+  font-family: 'Domine', Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  text-align: left;
+}
+
+/*sidebar font*/
+h2{
+font-family: 'Domine', Helvetica, Arial, serif;
+font-size: 18px;
+
+}
+
+/*headline font*/
+h3{
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*subhead font*/
+h4{
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+/*byline font*/
+h5{
+  font-family: 'Open sans', Helvetica, Arial, serif;
+  font-size: 12px;
+  text-align: center;
+  color: blue;
+}
+
+/*body text font*/
+h6{
+    font-family: 'Domine', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: left;
+  }
+
+#headline{
+
+}
+
+#container{
+  width: auto;
+  margin: 0, auto, 0, 0;
+  margin-bottom: 5%;
+}
+
+/* KEEP THIS COMMENTED OUT FOR NOW thx     #sidebar {
+	width: 30%;
+  float: right;
+  clear: all;
+	border-left: 3% solid #000000;
+	padding-left: 3%;
+	padding-right: 3%;
+}*/
+
+#login li{
+    float:right;
+}
+
+
+#nav1 li {
+	float: left;
+}
+
+#nav1 a:link, #nav a:visited {
+
+  text-align: center;
+  font-size: 16px;
+	text-decoration: none;
+	padding: 4px 0px;
+	color: #000000;
+	background-color: #f1b41d;
+	display: block;
+	width: 250px;
+  background-color: white;
+  padding: 3px 0;
+}
+
+#nav1 a:hover, #nav a:active {
+  background-color: white;
+  color: black;
+}
+
+
+#nav li {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  float: left;
+  font-size: 14px;
+  margin: 0%;
+}
+
+#nav a:link, #nav a:visited {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 6px 0px;
+	color: #ffffff;
+	background-color: #f1b41d;
+	display: block;
+	width: 222 px;
+  text-align: center;
+}
+
+#nav a:hover, #nav a:active {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+#Missourian{
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+
+}
+
+#stories{
+    text-align: right;
+    font-weight: bold;
+    color: black;
+}
+#headline{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#quiz{
+    position: absolute;
+    left: 0%;
+    display: block;
+    width: 250px;
+    height: 100px;
+    padding: 4px 4px 4px 4px;
+}
+#fastfive{
+    position: absolute;
+    left: 25%;
+    display: block;
+    width: 250px;
+    height: 100px;
+    padding: 4px 4px 4px 4px;
+}
+#lineup{
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 250px;
+    height: 100px;
+    padding: 4px 4px 4px 4px;
+}
+#more{
+    display: block;
+    position: absolute;
+    left: 75%;
+    width: 250px;
+    height: 100px;
+    padding: 4px 4px 4px 4px;
+}
+
+
+.storiesimage {
+  width: 50%;
+}
+
+.scheduleimage {
+  width: 90%;
+  padding-top: 7%;
+
+}
