@@ -105,32 +105,34 @@ h6{
 }
 
 #nav {
-	list-style-type: none;
-	margin: 0;
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
 	padding: 0;
-}
-
-#nav li {
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  float: left;
-  font-size: 14px;
-  margin: 0%;
-}
-
-#nav a:link, #nav a:visited {
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-	padding: 6px 0px;
-	color: #ffffff;
+	list-style: none;
 	background-color: #f1b41d;
-	display: block;
-	width: 222 px;
-}
-
-#nav a:hover, #nav a:active {
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	 }
+	
+#nav li {
+	float: left; }
+	
+#nav a:link, #nav a:visited {
+	 font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	   float: left;
+ text-align: center; 
+ font-size: 14px;
+ text-decoration: none; 
+ display: block;
+ width: 200 px;
+ padding: 6px;
+ color: black;
+ background-color: #f1b41d;
+ margin: 0%;
+font-weight: bold;
+border-right: 1px solid #ccc; }
+	
+#nav li a:hover, #nav a:active {
+	  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   background-color: white;
   color: black;
 }
