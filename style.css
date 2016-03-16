@@ -48,6 +48,7 @@ h5{
   font-size: 12px;
   text-align: center;
   color: blue;
+  text-transform: uppercase;
 }
 
 /*body text font*/
@@ -62,7 +63,7 @@ h6{
 }
 
 #container{
-  width: auto;
+  width: 100%;
   margin: 0, auto, 0, 0;
   margin-bottom: 5%;
 }
@@ -107,9 +108,9 @@ h6{
 
 #nav li {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  float: left;
   font-size: 14px;
   margin: 0%;
+  width: 100%;
 }
 
 #nav a:link, #nav a:visited {
@@ -121,7 +122,6 @@ h6{
 	color: #ffffff;
 	background-color: #f1b41d;
 	display: block;
-	width: 222 px;
   text-align: center;
 }
 
@@ -189,7 +189,7 @@ ul{
 
 
 .storiesimage {
-  width: 50%;
+  width: 100%;
 }
 
 .scheduleimage {
