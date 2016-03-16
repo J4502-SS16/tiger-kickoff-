@@ -105,8 +105,17 @@ h6{
   color: black;
 }
 
-
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #f1b41d;
+	 }
+	
 #nav li {
+<<<<<<< HEAD
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 14px;
   margin: 0%;
@@ -127,6 +136,27 @@ h6{
 
 #nav a:hover, #nav a:active {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+=======
+	float: left; }
+	
+#nav a:link, #nav a:visited {
+	 font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	   float: left;
+ text-align: center; 
+ font-size: 14px;
+ text-decoration: none; 
+ display: block;
+ width: 200 px;
+ padding: 6px;
+ color: black;
+ background-color: #f1b41d;
+ margin: 0%;
+font-weight: bold;
+border-right: 1px solid #ccc; }
+	
+#nav li a:hover, #nav a:active {
+	  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+>>>>>>> origin/gh-pages
   background-color: white;
   color: black;
 }
@@ -193,7 +223,7 @@ ul{
 }
 
 .scheduleimage {
-  width: 90%;
+  width: 40%;
   padding-top: 7%;
 
 }
