@@ -217,12 +217,11 @@ ul{
 }
 
 
-.storiesimage {
+.storiesimage{
   width: 100%;
 }
 
-.scheduleimage {
-  width: 40%;
+.scheduleimage{
+  width: 100%;
   padding-top: 7%;
-
 }
