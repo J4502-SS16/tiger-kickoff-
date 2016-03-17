@@ -115,7 +115,6 @@ h6{
 	 }
 
 #nav li {
-<<<<<<< HEAD
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 14px;
   margin: 0%;
@@ -136,12 +135,12 @@ h6{
 
 #nav a:hover, #nav a:active {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-=======
-	float: left; }
+	float: left;
+}
 
 #nav a:link, #nav a:visited {
-	 font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-	   float: left;
+ font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+ float: center;
  text-align: center;
  font-size: 14px;
  text-decoration: none;
@@ -152,7 +151,7 @@ h6{
  background-color: #f1b41d;
  margin: 0%;
 font-weight: bold;
-border-right: 1px solid #ccc; }
+/*border-right: 1px solid #ccc;*/ }
 
 #nav li a:hover, #nav a:active {
 	  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
