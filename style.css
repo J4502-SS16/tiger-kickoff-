@@ -48,6 +48,7 @@ h5{
   font-size: 12px;
   text-align: center;
   color: blue;
+  text-transform: uppercase;
 }
 
 /*body text font*/
@@ -58,11 +59,11 @@ h6{
   }
 
 #headline{
-
+  text-align: left;
 }
 
 #container{
-  width: auto;
+  width: 100%;
   margin: 0, auto, 0, 0;
   margin-bottom: 5%;
 }
@@ -112,25 +113,46 @@ h6{
 	list-style: none;
 	background-color: #f1b41d;
 	 }
-	
+
 #nav li {
-	float: left; }
-	
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0%;
+  width: 100%;
+}
+
 #nav a:link, #nav a:visited {
-	 font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-	   float: left;
- text-align: center; 
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 6px 0px;
+	color: #ffffff;
+	background-color: #f1b41d;
+	display: block;
+  text-align: center;
+}
+
+#nav a:hover, #nav a:active {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	float: left;
+}
+
+#nav a:link, #nav a:visited {
+ font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+ float: center;
+ text-align: center;
  font-size: 14px;
- text-decoration: none; 
+ text-decoration: none;
  display: block;
- width: 200 px;
+ width: 200px;
  padding: 6px;
  color: black;
  background-color: #f1b41d;
  margin: 0%;
 font-weight: bold;
-border-right: 1px solid #ccc; }
-	
+/*border-right: 1px solid #ccc;*/ }
+
 #nav li a:hover, #nav a:active {
 	  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   background-color: white;
@@ -194,12 +216,11 @@ ul{
 }
 
 
-.storiesimage {
-  width: 50%;
+.storiesimage{
+  width: 100%;
 }
 
-.scheduleimage {
-  width: 40%;
+.scheduleimage{
+  width: 100%;
   padding-top: 7%;
-
 }
