@@ -85,26 +85,6 @@ h6{
 	float: left;
 }
 
-#nav1 a:link, #nav a:visited {
-
-  text-align: center;
-  font-size: 16px;
-	text-decoration: none;
-	padding: 4px 0px;
-	color: #000000;
-	background-color: #f1b41d;
-	display: block;
-	width: 250px;
-  background-color: white;
-  padding: 3px 0;
-}
-
-#nav1 a:hover, #nav a:active {
-  background-color: white;
-  color: black;
-}
-
-
 #nav li {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   float: left;
