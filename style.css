@@ -224,3 +224,10 @@ ul{
   width: 100%;
   padding-top: 7%;
 }
+#footer {
+    left: 0; bottom: 0; 
+    padding: 5px; 
+    background: #f1b41d; 
+    color: #fff;
+    width: 100%; 
+   }
