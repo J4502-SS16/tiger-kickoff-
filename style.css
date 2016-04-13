@@ -91,11 +91,9 @@ h6{
 }
 
 
-#nav1 li {
-	float: left;
-}
 
-#nav1 a:link, #nav a:visited {
+
+#nav a:visited {
 
   text-align: center;
   font-size: 16px;
