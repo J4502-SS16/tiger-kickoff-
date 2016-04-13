@@ -20,7 +20,16 @@ h1{
   font-size: 50px;
   text-align: left;
 }
-
+.menu-trigger{
+  order: 1;
+}
+header{
+  background-color: #f1b41d;
+  margin: 0;
+  padding: 0 10px;
+  flex-flow: row;
+  display: flex;
+}
 /*sidebar font*/
 h2{
 font-family: 'Domine', Helvetica, Arial, serif;
@@ -100,7 +109,7 @@ h6{
   padding: 3px 0;
 }
 
-#nav1 a:hover, #nav a:active {
+#nav a:active {
   background-color: white;
   color: black;
 }
@@ -225,9 +234,9 @@ ul{
   padding-top: 7%;
 }
 #footer {
-    left: 0; bottom: 0; 
-    padding: 5px; 
-    background: #f1b41d; 
+    left: 0; bottom: 0;
+    padding: 5px;
+    background: #f1b41d;
     color: #fff;
-    width: 100%; 
+    width: 100%;
    }
