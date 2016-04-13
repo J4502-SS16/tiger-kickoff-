@@ -14,6 +14,33 @@ title{
     float: left;
 }
 
+
+
+
+
+@media screen and (min-width:700px){
+  nav ul{
+  display: flex;
+}
+
+nav ul li{
+  border-top: none;
+  flex-flow: row;
+}
+.menu-trigger{
+  display: none;
+  order:1;
+}
+
+nav {
+  order: 3;
+
+}
+
+header{
+order: 2;
+}
+
 /*Tiger Kickoff*/
 h1{
   font-family: 'Domine', Helvetica, Arial, sans-serif;
@@ -30,6 +57,30 @@ header{
   flex-flow: row;
   display: flex;
 }
+}
+
+
+
+
+
+
+
+h1{
+  font-family: 'Domine', Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  text-align: left;
+}
+.menu-trigger{
+  order: 1;
+}
+header{
+  background-color: #f1b41d;
+  margin: 0;
+  padding: 0 10px;
+  flex-flow: row;
+  display: flex;
+}
+
 /*sidebar font*/
 h2{
 font-family: 'Domine', Helvetica, Arial, serif;
@@ -95,26 +146,29 @@ h6{
 
 #nav a:visited {
 
-  text-align: center;
+  flex-flow: row;
   font-size: 16px;
 	text-decoration: none;
 	padding: 4px 0px;
 	color: #000000;
 	background-color: #f1b41d;
-	display: block;
+	display: flex;
 	width: 250px;
   background-color: white;
   padding: 3px 0;
 }
 
 #nav a:active {
+  flex-flow: row;
   background-color: white;
   color: black;
+  display: flex;
 }
 
 #nav {
 	width: 100%;
-	float: left;
+	flex-flow: row;
+  display: flex;
 	margin: 0 0 3em 0;
 	padding: 0;
 	list-style: none;
@@ -182,6 +236,7 @@ font-weight: bold;
 #headline{
     text-align: center;
 }
+
 
 ul{
     list-style-type: none;
