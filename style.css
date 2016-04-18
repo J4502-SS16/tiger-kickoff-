@@ -18,46 +18,6 @@ title{
 
 
 
-@media screen and (min-width:700px){
-  nav ul{
-  display: flex;
-}
-
-nav ul li{
-  border-top: none;
-  flex-flow: row;
-}
-.menu-trigger{
-  display: none;
-  order:1;
-}
-
-nav {
-  order: 3;
-
-}
-
-header{
-order: 2;
-}
-
-/*Tiger Kickoff*/
-h1{
-  font-family: 'Domine', Helvetica, Arial, sans-serif;
-  font-size: 50px;
-  text-align: left;
-}
-.menu-trigger{
-  order: 1;
-}
-header{
-  background-color: #f1b41d;
-  margin: 0;
-  padding: 0 10px;
-  flex-flow: row;
-  display: flex;
-}
-}
 
 
 
@@ -72,6 +32,7 @@ h1{
 }
 .menu-trigger{
   order: 1;
+  background-color: #f1b41d; 
 }
 header{
   background-color: #f1b41d;
@@ -167,8 +128,9 @@ h6{
 
 #nav {
 	width: 100%;
-	flex-flow: row;
   display: flex;
+	flex-flow: column;
+
 	margin: 0 0 3em 0;
 	padding: 0;
 	list-style: none;
@@ -292,4 +254,46 @@ ul{
     background: #f1b41d;
     color: #fff;
     width: 100%;
+   }
+
+   @media screen and (min-width:700px){
+     #nav{
+     display: flex;
+     flex-flow: row;
+   }
+
+   nav ul li{
+     border-top: none;
+     flex-flow: row;
+   }
+   .menu-trigger{
+     display: none;
+     order:1;
+   }
+
+   nav {
+     order: 3;
+
+   }
+
+   header{
+   order: 2;
+   }
+
+   /*Tiger Kickoff*/
+   h1{
+     font-family: 'Domine', Helvetica, Arial, sans-serif;
+     font-size: 50px;
+     text-align: left;
+   }
+   .menu-trigger{
+     order: 1;
+   }
+   header{
+     background-color: #f1b41d;
+     margin: 0;
+     padding: 0 10px;
+     flex-flow: row;
+     display: flex;
+   }
    }
