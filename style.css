@@ -89,7 +89,7 @@ h7{
 
 /*player QA ANSWER font*/
 h8{
-  
+
 }
 
 #headline{
@@ -273,7 +273,7 @@ ul{
      #nav{
      display: flex;
      flex-flow: row;
-     width: 80%;
+     width: 100%;
    }
 
    nav ul li{
