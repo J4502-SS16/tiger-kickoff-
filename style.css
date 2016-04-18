@@ -171,7 +171,7 @@ h8{
 
 #nav a:hover, #nav a:active {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-	float: left;
+	/*float: left;*/
 }
 
 #nav a:link, #nav a:visited {
