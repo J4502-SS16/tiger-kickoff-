@@ -38,8 +38,9 @@ header{
   background-color: #f1b41d;
   margin: 0;
   padding: 0 10px;
-  flex-flow: row;
   display: flex;
+  flex-flow: row;
+
 }
 
 /*sidebar font*/
@@ -260,6 +261,7 @@ ul{
      #nav{
      display: flex;
      flex-flow: row;
+     width: 80%;
    }
 
    nav ul li{
@@ -291,15 +293,21 @@ ul{
    }
    header{
      background-color: #f1b41d;
+     width: 100%;
      margin: 0;
      padding: 0 10px;
-     flex-flow: row;
      display: flex;
+     flex-flow: row;
+
    }
    }
    .search{
-     margin: 50px auto;
-     width: 100px;
+     margin: 10px auto;
+     width: 25px;
      height: 50px;
-     padding-left: 50px;
+     padding-left: 10px;
+     flex: 1 auto;
+   }
+   header h1{
+     flex: 2 auto;
    }
