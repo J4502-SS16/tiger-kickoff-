@@ -95,6 +95,7 @@ h7{
 
 /*player QA ANSWER font*/
 h8{
+<<<<<<< HEAD
   font-family: 'Domine', Helvetica, Arial, sans-serif;
   font-size: 12px;
   text-align: left;
@@ -104,6 +105,8 @@ h8{
   background-color: #323431;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
+=======
+>>>>>>> origin/gh-pages
 
 }
 /*player QA ODD numbered styling*/
@@ -162,7 +165,7 @@ h8{
 	color: #000000;
 	background-color: #f1b41d;
 	display: flex;
-	width: 250px;
+	/*width: 250px;*/
   background-color: white;
   padding: 3px 0;
 }
@@ -206,7 +209,7 @@ h8{
 
 #nav a:hover, #nav a:active {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-	float: left;
+	/*float: left;*/
 }
 
 #nav a:link, #nav a:visited {
@@ -216,7 +219,7 @@ h8{
  font-size: 14px;
  text-decoration: none;
  display: block;
- width: 200px;
+ /*width: 200px;*/
  padding: 6px;
  color: black;
  background-color: #f1b41d;
@@ -308,7 +311,7 @@ ul{
      #nav{
      display: flex;
      flex-flow: row;
-     width: 80%;
+     width: 100%;
    }
 
    nav ul li{
