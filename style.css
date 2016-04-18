@@ -80,6 +80,18 @@ h6{
     text-align: left;
   }
 
+/*player QA QUESTION font*/
+h7{
+  font-family: 'Domine', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
+/*player QA ANSWER font*/
+h8{
+  
+}
+
 #headline{
   text-align: left;
 }
