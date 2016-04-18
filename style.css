@@ -127,7 +127,7 @@ h8{
 	color: #000000;
 	background-color: #f1b41d;
 	display: flex;
-	width: 250px;
+	/*width: 250px;*/
   background-color: white;
   padding: 3px 0;
 }
@@ -181,7 +181,7 @@ h8{
  font-size: 14px;
  text-decoration: none;
  display: block;
- width: 200px;
+ /*width: 200px;*/
  padding: 6px;
  color: black;
  background-color: #f1b41d;
