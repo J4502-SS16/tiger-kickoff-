@@ -95,26 +95,23 @@ h7{
 
 /*player QA ANSWER font*/
 h8{
-<<<<<<< HEAD
-  font-family: 'Domine', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  float: left;
   font-size: 12px;
-  text-align: left;
 }
 
 #Question{
+  text-align: center;
   background-color: #323431;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
-=======
->>>>>>> origin/gh-pages
-
 }
+
 /*player QA ODD numbered styling*/
 #AnswerOdd{
   background-color: #d2d2d2;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
-
 }
 
 /*player QA EVEN numbered styling*/
