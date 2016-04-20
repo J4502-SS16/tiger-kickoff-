@@ -107,12 +107,17 @@ h8{
   padding: 5px 5px 5px 5px;
 }
 
+/*<!--AnswerOdd and AnswerEven are present for color styling on QA PAGE-->
+<!--img is for player image styling -->
+<!--ans is for answer text styling-->*/
+
 /*player QA ODD numbered styling*/
 #AnswerOdd{
   background-color: #d2d2d2;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
-  text-align: left;
+
+  flex-flow: row;
 }
 
 /*player QA EVEN numbered styling*/
@@ -120,18 +125,23 @@ h8{
   background-color: #EEB00F;
   margin: 5px 5px 5px 5px;
   padding: 5px 5px 5px 5px;
-  float: right;
+  flex-flow: row;
 
 }
 
 /*this is styling the player images on the player QA page*/
 #img{
-  width: 50%;
-  float: left;
-  flex-flow: row;
+  width: 40%;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#ans{
 
 }
-/**/
+
+
+
 
 
 #headline{
