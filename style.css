@@ -90,6 +90,7 @@ h8{
 }
 
 
+/*MEDIA SCREEN FOR PLAYERS PAGE*/
 
 @media screen and (max-width:700px){
 
@@ -104,23 +105,60 @@ h8{
 <!--img is for player image styling -->
 <!--ans is for answer text styling-->*/
 
-/*player QA ODD numbered styling*/
-#AnswerOdd{
+
+/*this is styling the player images on the player QA page*/
+.ans1{
+  order:2
+  content: 8%;
+  border: 1.75%, 1.75%, 1.75%, 1.75%;
+  flex-flow: row;
   background-color: #d2d2d2;
   margin: 5%, 5%, 5%, 5%;
   padding: 5%, 5%, 5%, 5%;
   flex-flow: row;
 }
 
-/*player QA EVEN numbered styling*/
-#AnswerEven{
+.ans2{
+  order:3;
+  content: 8%;
+  flex-flow: row;
   background-color: #EEB00F;
   margin: 5%, 5%, 5%, 5%;
   padding: 5%, 5%, 5%, 5%;
   flex-flow: row;
 }
 
-/*this is styling the player images on the player QA page*/
+.ans3{
+  order:4;
+  flex-flow: row;
+  background-color: #d2d2d2;
+  margin: 5%, 5%, 5%, 5%;
+  padding: 5%, 5%, 5%, 5%;
+  flex-flow: row;
+
+}
+
+.ans4{
+  order:5;
+  border: 11.5%;
+  flex-flow: row;
+  background-color: #EEB00F;
+  margin: 5%, 5%, 5%, 5%;
+  padding: 5%, 5%, 5%, 5%;
+  flex-flow: row;
+}
+
+.ans5{
+  border: 11.5%;
+  order:6;
+  flex-flow: row;
+  background-color: #d2d2d2;
+  margin: 5%, 5%, 5%, 5%;
+  padding: 5%, 5%, 5%, 5%;
+  flex-flow: row;
+
+}
+
 #img{
   width: 40%;
   margin-left: 5%;
@@ -144,49 +182,90 @@ h8{
 /*START GREATER THAN 700PX FOR MEDIA SCREEN FOR PLAYERS PAGE*/
 @media screen and (min-width:700px){
 
-#Question{
-  text-align: center;
-  background-color: #323431;
-  margin: 10%, 10%, 10%, 10%;
-  padding: 10%, 10%, 10%, 10%;
+#flex-wrapper {
+  display: flex;
 }
+
+.Question{
+  background-color: #323431;
+    order:1;
+    flex-flow: row;
+    text-align: center;
+    color: #323431;
+    border: 25px #323431;
+
+  }
 
 /*<!--AnswerOdd and AnswerEven are present for color styling on QA PAGE-->
 <!--img is for player image styling -->
 <!--ans is for answer text styling-->*/
 
-/*player QA ODD numbered styling*/
-#AnswerOdd{
+
+.ans1{
+  order:2
+  content: 8%;
+  border: 1.75%, 1.75%, 1.75%, 1.75%;
   background-color: #d2d2d2;
   margin: 5%, 5%, 5%, 5%;
   padding: 5%, 5%, 5%, 5%;
   flex-flow: row;
 }
 
-/*player QA EVEN numbered styling*/
-#AnswerEven{
+.ans2{
+  order:3;
+  content: 8%;
   background-color: #EEB00F;
   margin: 5%, 5%, 5%, 5%;
   padding: 5%, 5%, 5%, 5%;
   flex-flow: row;
 }
 
-/*this is styling the player images on the player QA page*/
-#img{
-  width: 40%;
-  margin-left: 5%;
-  margin-top: 5%;
+.ans3{
+  order:4;
+  background-color: #d2d2d2;
+  margin: 5%, 5%, 5%, 5%;
+  padding: 5%, 5%, 5%, 5%;
+  flex-flow: row;
 
 }
 
-#ans{
-  margin-top: 5%;
-
+.ans4{
+  order:5;
+  border: 11.5%;
+  background-color: #EEB00F;
+  margin: 5%, 5%, 5%, 5%;
+  padding: 5%, 5%, 5%, 5%;
+  flex-flow: row;
 }
 
-}
+.ans5{
+  border: 11.5%;
+  order:6;
+  background-color: #d2d2d2;
+  margin: 5%, 5%, 5%, 5%;
+  padding: 5%, 5%, 5%, 5%;
+  flex-flow: row;
 
-/*START GREATER THAN 700PX FOR MEDIA SCREEN FOR PLAYERS PAGE*/
+}
+  /*this is styling the player images on the player QA page*/
+  #img{
+    margin-left: 5%;
+    margin-top: 5%;
+    content: 8%;
+
+  }
+
+  #ans{
+    content: 8%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    flex-flow: row;
+  }
+
+  }
+
+/*END GREATER THAN 700PX FOR MEDIA SCREEN FOR PLAYERS PAGE*/
 
 
 
@@ -440,7 +519,7 @@ ul{
     width: 80%;
     height: auto;
     position:relative;
-    
+
 }
 #bar{
     width:20%;
