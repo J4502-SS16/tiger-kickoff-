@@ -282,17 +282,6 @@ h8{
 	border-left: 2px solid #000000;
 	padding-left: 15px;
 }
-@media screen and (min-width: 0px) and (max-width: 900px)  {
-
-   #sidebar, #footer  {
-      width: 100%;
-      float: left;
-      clear: both;
-      border-top: 1px solid #ccc;
-      margin-top: 20px;
-      background: none;
-      position: relative;
-   }
 
 /* KEEP THIS COMMENTED OUT FOR NOW thx     #sidebar {
 	width: 30%;
