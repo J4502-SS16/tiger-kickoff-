@@ -430,3 +430,22 @@ ul{
        margin: 5px;
        float: left;
    }
+   div.desc{
+       width: 300px;
+       padding:15px;
+       text-align: center;
+   }
+
+#images{
+    width: 80%;
+    height: auto;
+    position:relative;
+    
+}
+#bar{
+    width:20%;
+    height: 100%;
+    position:absolute;
+    left: 80%;
+    top: 70%;
+}
