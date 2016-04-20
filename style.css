@@ -434,3 +434,8 @@ ul{
    header h1{
      flex: 2 auto;
    }
+   
+   div.img{
+       margin: 5px;
+       float: left;
+   }
