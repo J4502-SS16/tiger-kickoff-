@@ -136,12 +136,14 @@ h8{
   width: 40%;
   margin-left: 5%;
   margin-top: 5%;
-
+  flex-flow: row;
 }
 
 #ans{
+  margin-left: 5%;
   margin-top: 5%;
-
+  margin-right: 5%;
+  flex-flow: row;
 }
 
 }
