@@ -100,11 +100,15 @@ h8{
   font-size: 12px;
 }
 
+
+
+@media screen and (max-width:700px){
+
 #Question{
   text-align: center;
   background-color: #323431;
-  margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px;
+  margin: 10%, 10%, 10%, 10%;
+  padding: 10%, 10%, 10%, 10%;
 }
 
 /*<!--AnswerOdd and AnswerEven are present for color styling on QA PAGE-->
@@ -114,30 +118,85 @@ h8{
 /*player QA ODD numbered styling*/
 #AnswerOdd{
   background-color: #d2d2d2;
-  margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px;
-
+  margin: 5%, 5%, 5%, 5%;
+  padding: 5%, 5%, 5%, 5%;
   flex-flow: row;
 }
 
 /*player QA EVEN numbered styling*/
 #AnswerEven{
   background-color: #EEB00F;
-  margin: 5px 5px 5px 5px;
-  padding: 5px 5px 5px 5px;
+  margin: 5%, 5%, 5%, 5%;
+  padding: 5%, 5%, 5%, 5%;
   flex-flow: row;
 }
 
 /*this is styling the player images on the player QA page*/
 #img{
   width: 40%;
-  margin-left: 5px;
-  margin-top: 5px;
+  margin-left: 5%;
+  margin-top: 5%;
+
 }
 
 #ans{
+  margin-top: 5%;
 
 }
+
+}
+/*end less than 700px for media screen for players page*/
+
+
+
+
+/*START GREATER THAN 700PX FOR MEDIA SCREEN FOR PLAYERS PAGE*/
+@media screen and (max-width:700px){
+
+#Question{
+  text-align: center;
+  background-color: #323431;
+  margin: 10%, 10%, 10%, 10%;
+  padding: 10%, 10%, 10%, 10%;
+}
+
+/*<!--AnswerOdd and AnswerEven are present for color styling on QA PAGE-->
+<!--img is for player image styling -->
+<!--ans is for answer text styling-->*/
+
+/*player QA ODD numbered styling*/
+#AnswerOdd{
+  background-color: #d2d2d2;
+  margin: 5%, 5%, 5%, 5%;
+  padding: 5%, 5%, 5%, 5%;
+  flex-flow: row;
+}
+
+/*player QA EVEN numbered styling*/
+#AnswerEven{
+  background-color: #EEB00F;
+  margin: 5%, 5%, 5%, 5%;
+  padding: 5%, 5%, 5%, 5%;
+  flex-flow: row;
+}
+
+/*this is styling the player images on the player QA page*/
+#img{
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 5%;
+
+}
+
+#ans{
+  margin-top: 5%;
+
+}
+
+}
+
+/*START GREATER THAN 700PX FOR MEDIA SCREEN FOR PLAYERS PAGE*/
+
 
 
 
@@ -374,4 +433,9 @@ ul{
    }
    header h1{
      flex: 2 auto;
+   }
+   
+   div.img{
+       margin: 5px;
+       float: left;
    }
