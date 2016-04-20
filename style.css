@@ -277,9 +277,6 @@ h8{
   margin-bottom: 5%;
 }
 #sidebar {
-  position: absolute;
-      right: 0px;
-      top: 0px;
 	width: 30%;
   float: right;
 	border-left: 2px solid #000000;
