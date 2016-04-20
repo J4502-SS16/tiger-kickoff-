@@ -97,8 +97,8 @@ h8{
 #Question{
   text-align: center;
   background-color: #323431;
-  margin: 10%, 10%, 10%, 10%;
-  padding: 10%, 10%, 10%, 10%;
+  margin: 10%;
+  padding: 10%;
 }
 
 /*<!--AnswerOdd and AnswerEven are present for color styling on QA PAGE-->
@@ -109,22 +109,20 @@ h8{
 /*this is styling the player images on the player QA page*/
 .ans1{
   order:2
-  content: 8%;
-  border: 1.75%, 1.75%, 1.75%, 1.75%;
+  border: 1.75%;
   flex-flow: row;
   background-color: #d2d2d2;
-  margin: 5%, 5%, 5%, 5%;
-  padding: 5%, 5%, 5%, 5%;
+  margin: 5%;
+  padding: 5%;
   flex-flow: row;
 }
 
 .ans2{
   order:3;
-  content: 8%;
-  flex-flow: row;
+  border: 1.75%;
   background-color: #EEB00F;
-  margin: 5%, 5%, 5%, 5%;
-  padding: 5%, 5%, 5%, 5%;
+  margin: 5%;
+  padding: 5%;
   flex-flow: row;
 }
 
@@ -149,8 +147,8 @@ h8{
 }
 
 .ans5{
-  border: 11.5%;
   order:6;
+  border: 11.5%;
   flex-flow: row;
   background-color: #d2d2d2;
   margin: 5%, 5%, 5%, 5%;
@@ -176,8 +174,12 @@ h8{
 }
 /*end less than 700px for media screen for players page*/
 
+/*FOR TWO COLUMNS*/
+/*
+@media screen and (min-width:400px) and (max-width:699px){
 
-
+}
+*/
 
 /*START GREATER THAN 700PX FOR MEDIA SCREEN FOR PLAYERS PAGE*/
 @media screen and (min-width:700px){
@@ -195,7 +197,7 @@ h8{
     color: #000;
     padding: 1.25%;
     width: 18%;
-    
+
   }
   .question h7 {
     color: #000;
@@ -206,6 +208,7 @@ h8{
 <!--ans is for answer text styling-->*/
 .ans {
   width: 16%;
+  margin: .5%;
 }
 
 .ans1{
@@ -233,15 +236,16 @@ h8{
   order:6;
   background-color: #d2d2d2;
 }
+
+
   /*this is styling the player images on the player QA page*/
-  #img{
+#img{
     margin-left: 5%;
     margin-top: 5%;
     content: 8%;
-
   }
 
-  #ans{
+#ans{
     content: 8%;
     margin-left: 5%;
     margin-top: 5%;
