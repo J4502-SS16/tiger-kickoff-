@@ -124,9 +124,6 @@ h8{
 
 
 
-
-
-
 #headline{
   text-align: left;
 }
@@ -152,7 +149,6 @@ h8{
 
 
 
-<<<<<<< HEAD
 
 #nav a:visited {
 
@@ -186,8 +182,7 @@ h8{
 	background-color: #f1b41d;
 	 }
 
-=======
->>>>>>> refs/remotes/origin/master
+
 #nav li {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 14px;
