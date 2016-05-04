@@ -1,4 +1,13 @@
 
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  margin: 0px;
+  }
+  
+
 .featured_image {
   width: 100%;
 }
@@ -291,10 +300,11 @@ h9{
   margin-bottom: 5%;
 }
 #sidebar {
-	width: 30%;
+	/*width: 30%;*/
   float: right;
 	/*border-left: 2px solid #000000;*/
 	padding-left: 15px;
+  height: 100%;
 }
 
 
