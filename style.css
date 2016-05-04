@@ -69,20 +69,6 @@ h6{
     text-align: left;
   }
 
-
-/*footer styling*/
-
-.services h6{
-  text-align: left;
-  color: black;
-}
-
-.contact h6{
-  text-align: left;
-  color: black;
-}
-
-
 /*player QA QUESTION font*/
 h7{
   font-family: 'Domine', Helvetica, Arial, sans-serif;
@@ -99,6 +85,32 @@ h8{
   float: left;
   font-size: 12px;
 }
+
+h9{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 10px;
+}
+
+
+/*footer styling*/
+#footer{
+  padding: 5px;
+  width: 100%;
+  left: 0; bottom: 0;
+  padding: 5px;
+  background: #f1b41d;
+}
+
+.services h9{
+  text-align: left;
+  color: black;
+}
+
+.contact h9{
+  text-align: left;
+  color: #000000;
+}
+
 
 
 /*MEDIA SCREEN FOR PLAYERS PAGE*/
@@ -456,13 +468,7 @@ ul{
   width: 100%;
   padding-top: 7%;
 }
-#footer {
-    left: 0; bottom: 0;
-    padding: 5px;
-    background: #f1b41d;
-    color: #fff;
-    width: 100%;
-   }
+
 
 @media screen and (min-width:700px){
      #nav{
