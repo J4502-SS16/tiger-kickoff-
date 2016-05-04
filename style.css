@@ -72,8 +72,15 @@ h6{
 
 /*footer styling*/
 
+.services h6{
+  text-align: left;
+  color: black;
+}
 
-
+.contact h6{
+  text-align: left;
+  color: black;
+}
 
 
 /*player QA QUESTION font*/
