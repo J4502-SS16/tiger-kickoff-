@@ -100,6 +100,32 @@ h9{
   font-size: 10px;
 }
 
+/*DOMINANT HEADLINE AND SUMMARY TYPEFACE/FONT ON HOME PAGE*/
+h10{
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 30px;
+  text-align: left;
+}
+
+h11{
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*SECONDARY HEADLINE AND SUMMARY TYPEFACE/FONT ON HOMEPAGE*/
+h12{
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+h14{
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 15px;
+  text-align: center;
+}
+
 
 /*footer styling*/
 #footer{
@@ -111,6 +137,8 @@ h9{
   text-align: left;
   color: black;
 }
+
+
 
 
 /*MEDIA SCREEN FOR PLAYERS PAGE*/
@@ -477,6 +505,7 @@ ul{
      flex-flow: row;
      width: 100%;
    }
+
 
    nav ul li{
      border-top: none;
