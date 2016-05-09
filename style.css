@@ -1,4 +1,13 @@
 
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  margin: 0px;
+  }
+
+
 .featured_image {
   width: 100%;
 }
@@ -36,7 +45,6 @@ header{
 h2{
 font-family: 'Domine', Helvetica, Arial, serif;
 font-size: 18px;
-
 }
 
 /*headline font*/
@@ -65,12 +73,9 @@ h5{
 /*body text font*/
 h6{
     font-family: 'Domine', Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
   }
-
-
-
 
 /*player QA QUESTION font*/
 h7{
@@ -87,6 +92,49 @@ h8{
   font-family: Helvetica, Arial, sans-serif;
   float: left;
   font-size: 12px;
+}
+
+h9{
+  font-family: helvetica, arial, sans-serif;
+  font-size: 10px;
+}
+
+/*DOMINANT HEADLINE AND SUMMARY TYPEFACE/FONT ON HOME PAGE*/
+h10{
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 30px;
+  text-align: left;
+}
+
+h11{
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+/*SECONDARY HEADLINE AND SUMMARY TYPEFACE/FONT ON HOMEPAGE*/
+h12{
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+h14{
+  font-family: 'Domine', Helvetica, Arial, serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+/*footer styling*/
+#footer{
+  padding: 5px;
+  width: 100%;
+  left: 0; bottom: 0;
+  padding: 5px;
+  background: #f1b41d;
+  text-align: left;
+  color: black;
 }
 
 
@@ -124,6 +172,7 @@ h8{
   background-color: #d2d2d2;
   margin: 5%;
   padding: 5%;
+
 }
 
 .ans2{
@@ -171,6 +220,9 @@ h8{
   margin-top: 5%;
   margin-right: 5%;
   text-align: center;
+  font-family: Helvetica, Arial, sans-serif;;
+  font-size: 14px;
+
 }
 
 }
@@ -190,6 +242,8 @@ h8{
   display: flex;
   flex-flow: row;
   align-items: flex-start stretch;
+  flex-direction: row
+  align-content: flex-start;
 }
 
 .Question{
@@ -198,6 +252,7 @@ h8{
     text-align: center;
     padding: 1.25%;
     width: 18%;
+    align-content: flex-start;
   }
 
   .question h7 {
@@ -214,6 +269,8 @@ h8{
 .ans {
   width: 16%;
   margin: .5%;
+  font-family: Helvetica, Arial, sans-serif;;
+  font-size: 13px;
 }
 
 .ans1{
@@ -248,7 +305,8 @@ h8{
     margin-left: 5%;
     margin-top: 5%;
     content: 8%;
-
+    margin: 0;
+    text-align: center;
   }
 
 #ans{
@@ -256,6 +314,7 @@ h8{
     margin: 5%;
     flex-flow: row;
     text-align: center;
+
   }
 
   }
@@ -277,10 +336,11 @@ h8{
   margin-bottom: 5%;
 }
 #sidebar {
-	width: 30%;
-  float: right;
-	border-left: 2px solid #000000;
+	/*width: 30%;*/
+  /*float: right;*/
+	/*border-left: 2px solid #000000;*/
 	padding-left: 15px;
+  height: 100%;
 }
 
 
@@ -445,13 +505,7 @@ ul{
   width: 100%;
   padding-top: 7%;
 }
-#footer {
-    left: 0; bottom: 0;
-    padding: 5px;
-    background: #f1b41d;
-    color: #fff;
-    width: 100%;
-   }
+
 
 @media screen and (min-width:700px){
      #nav{
@@ -459,6 +513,7 @@ ul{
      flex-flow: row;
      width: 100%;
    }
+
 
    nav ul li{
      border-top: none;
@@ -488,7 +543,7 @@ ul{
      order: 1;
    }
    header{
-     background-color: #f1b41d;
+     background-color: #ffffff;
      width: 100%;
      margin: 0;
      padding: 0 10px;
@@ -508,13 +563,13 @@ ul{
      flex: 2 auto;
    }
 
-   div.img{
-       margin: 5px;
-       float: left;
-   }
+div.img
+{
+  height: 350px;
+}
+
    div.desc{
        width: 300px;
-       padding:15px;
        text-align: center;
    }
 
@@ -533,7 +588,7 @@ ul{
 }
 
 #main{
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 15px;
+  padding-right: 15px;
   font-size: 24px;
 }
