@@ -45,7 +45,6 @@ header{
 h2{
 font-family: 'Domine', Helvetica, Arial, serif;
 font-size: 18px;
-
 }
 
 /*headline font*/
@@ -74,7 +73,7 @@ h5{
 /*body text font*/
 h6{
     font-family: 'Domine', Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
   }
 
@@ -137,8 +136,6 @@ h14{
   text-align: left;
   color: black;
 }
-
-
 
 
 /*MEDIA SCREEN FOR PLAYERS PAGE*/
@@ -223,6 +220,8 @@ h14{
   margin-top: 5%;
   margin-right: 5%;
   text-align: center;
+  font-family: Helvetica, Arial, sans-serif;;
+  font-size: 14px;
 
 }
 
@@ -253,6 +252,7 @@ h14{
     text-align: center;
     padding: 1.25%;
     width: 18%;
+    align-content: flex-start;
   }
 
   .question h7 {
@@ -270,7 +270,7 @@ h14{
   width: 16%;
   margin: .5%;
   font-family: Helvetica, Arial, sans-serif;;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .ans1{
